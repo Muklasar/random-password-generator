@@ -4,11 +4,6 @@ const PreviousPasswords = ({ state }) => {
   const { previousPasswords, copyToClipboard } = state;
   return (
     <div className="card">
-      {/* <ul class="list-group list-group-flush">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-      </ul> */}
       <ul class="list-group list-group-flush">
         {previousPasswords.map((prevPassword, index) => (
           <li

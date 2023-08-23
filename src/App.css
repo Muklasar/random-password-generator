@@ -33,8 +33,9 @@ li span {
 }
 
 @media(max-width:560px){
-  h4, h3{
-    font-size: 18px;
+  h4, h5{
+    font-size: 17px;
+    text-align: center;
   }
   li{
     font-size: 15px;
